@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+bandit = "*"
+pydocstyle = "*"
+autopep8 = "*"
+
+[packages]
+telegram = "*"
+python-telegram-bot = "*"
+youtube-dl = "*"
+
+[requires]
+python_version = "3.7"
